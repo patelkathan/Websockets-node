@@ -21,8 +21,9 @@
       var host = location.origin.replace(/^http/, 'ws')
       var ws = new WebSocket(host);
       ws.onmessage = function (event) {
+	    var response = JSON.parse(event.data)
         var li = document.createElement('li');
-        li.innerHTML = JSON.parse(event.data);
+        li.innerHTML += response.name +  " : " + response.data + "<br>"
         document.querySelector('#pings').appendChild(li);
       };
     </script>
