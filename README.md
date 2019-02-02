@@ -1,4 +1,4 @@
-# Node.js Websocket Test
+# Node.js Websocket Test Server
 
 A tiny demo using the WebSockets implementation.
 
