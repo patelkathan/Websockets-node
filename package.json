@@ -1,17 +1,17 @@
 {
   "name": "node-ws-test",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/heroku-examples/node-ws-test.git"
   },
   "dependencies": {
     "express": "^4.16.3",
-    "npm": "^5.8.0",
+    "npm": "^6.8.0",
     "ws": "^6.1.4"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "11.15.x"
   },
   "scripts": {
     "start": "node index.js"
